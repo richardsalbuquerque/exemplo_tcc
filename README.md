@@ -23,14 +23,18 @@ Onde, $r_s$ é um raio de escala e $\rho_s$ é um parâmetro adimensional de den
 
 ## Pré-requisito
 Requisitos
+
 1 - Instalação do Python 3
+
 2 - Fazer o download das bibliotecas: numpy, matplotlib, pynbody e scipy
+
 3 - Baixar do github os arquivos: exemplo_tcc.py, snapshot_070, exemplo_perfil_NFW.ascii (é necessário que todos os arquivos estejam na mesma pasta)
 
 Para baixar as bibliotecas basta digitar no terminal linux: pip install <nome_biblioteca>
 
 ## Procedimento para rodar o código
 Digite no terminal linux: python3 exemplo_tcc.py
+
 Em seguida, especifique o halo que deseja analisar, digitando um número entre 0 e 110.
 
-Caso o seu sistema operacional seja outro, que não o linux, o procedimento pode sofrer pequenas alterações.
+### Caso o seu sistema operacional seja outro, que não o linux, o procedimento pode sofrer pequenas alterações.
