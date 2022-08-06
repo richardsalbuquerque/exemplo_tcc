@@ -32,9 +32,7 @@ Requisitos
 
 Para baixar as bibliotecas basta digitar no terminal linux: pip install <nome_biblioteca>
 
-## Procedimento para rodar o código
+## Procedimento para rodar o código no Linux
 Digite no terminal linux: python3 exemplo_tcc.py
 
 Em seguida, especifique o halo que deseja analisar, digitando um número entre 0 e 110.
-
-### Caso o seu sistema operacional seja outro, que não o linux, o procedimento pode sofrer pequenas alterações.
