@@ -7,7 +7,7 @@ from scipy.optimize import curve_fit
 
 plt.rcParams.update({'font.size': 15})
 
-# Carregando os arquivos que comtém a simulação e o catálogo de halos, respectivamente
+# Carregando os arquivos que contém a simulação e o catálogo de halos, respectivamente
 
 simulacao = pynbody.load('snapshot_070')
 
@@ -39,7 +39,7 @@ rvir  = catalogo_halos[:, 4][np.where(m200c>0)[0]]
 print(f'Digite um número entre 0 e {len(m200c)} para construir um perfil de densidade NFW')
 i = int(input())
 
-# Tranladando o halo para o centro do Universo
+# Transladando o halo para o centro do Universo
 
 halo_x = simulacao.dm['x'] - x[i]
 halo_y = simulacao.dm['y'] - y[i]
@@ -88,7 +88,7 @@ for n in range(0,numero_cascas_esfericas):     # Repete os cálculos de acordo c
     massa_casca_esferica = quantidade_particulas * simulacao.dm['mass'][0] # A massa da casca esférica é a 
                                                                            #     quantidade de partículas contidas
                                                                            #     entre o raio 1 e 2 vezes
-                                                                           #     a massa de cada partúcula
+                                                                           #     a massa de cada partícula
                 
     densidade.append(massa_casca_esferica/volume_casca_esferica)    # Carregando o vetor densidade
     raio1_log = raio2_log    # Evoluindo o valor de raio 1
@@ -115,7 +115,7 @@ ajuste_nfw_y   = func(ajuste_nfw_x, rho_s, r_s)                          # Vetor
 
 fig, ax = plt.subplots(figsize=(10, 7))
 
-plt.scatter(raio_medio_log[::2], densidade[::2], color='red')                       # Pontos vervelhos
+plt.scatter(raio_medio_log[::2], densidade[::2], color='red')                       # Pontos vermelhos
 plt.plot(ajuste_nfw_x, ajuste_nfw_y, color='blue', label='Ajueste do perfil NFW')   # Curva azul
 
 plt.title(f'Perfil de densidade do halo {i}')
