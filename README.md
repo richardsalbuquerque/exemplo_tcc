@@ -30,7 +30,7 @@ Requisitos
 
 3 - Baixar do github os arquivos: exemplo_tcc.py, snapshot_070, exemplo_perfil_NFW.ascii (é necessário que todos os arquivos estejam na mesma pasta)
 
-Para baixar as bibliotecas basta digitar no terminal linux: pip install <nome_biblioteca>
+Para baixar as bibliotecas basta digitar no terminal linux: pip3 install <nome_biblioteca>
 
 ## Procedimento para rodar o código no Linux
 Baixe o arquivo da simulação pelo link: https://drive.google.com/file/d/11JrWy_ablQaUtZeDQvUk79ZXm_uKddkl/view?usp=sharing
