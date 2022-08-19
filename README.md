@@ -35,6 +35,8 @@ Para baixar as bibliotecas basta digitar no terminal linux: pip install <nome_bi
 ## Procedimento para rodar o código no Linux
 Baixe o arquivo da simulação pelo link: https://drive.google.com/file/d/11JrWy_ablQaUtZeDQvUk79ZXm_uKddkl/view?usp=sharing
 
-Digite no terminal linux: python3 exemplo_tcc.py
+Coloque todos os arquivos em uma mesma pasta
+
+Digite no terminal linux: python3 exemplo_tcc.py (dentro da pasta que contém todos os arquivos)
 
 Em seguida, especifique o halo que deseja analisar, digitando um número entre 0 e 110.
